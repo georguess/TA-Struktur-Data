@@ -2,6 +2,7 @@
 *.exe
 *.o
 *.out
+*.pdf
 
 # Abaikan folder spesifik VS Code jika ada
 .vscode/
