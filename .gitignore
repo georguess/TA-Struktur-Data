@@ -1,0 +1,7 @@
+# Abaikan file hasil kompilasi dan file sementara
+*.exe
+*.o
+*.out
+
+# Abaikan folder spesifik VS Code jika ada
+.vscode/
