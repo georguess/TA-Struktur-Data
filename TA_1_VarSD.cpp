@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-#include <iomanip> // Tambahkan library ini untuk manipulasi output
+#include <iomanip> 
 
 using namespace std;
 
-// Konstanta untuk Ukuran Array
+// Konstanta 
 const int JUMLAH_MAHASISWA = 5;
 const int JUMLAH_MATKUL = 3;
 
@@ -13,10 +13,10 @@ string namaMahasiswa[JUMLAH_MAHASISWA];
 int nilai[JUMLAH_MAHASISWA][JUMLAH_MATKUL];
 string namaMatkul[JUMLAH_MATKUL] = {"Struktur Data", "Rekayasa Perangkat Lunak", "Sistem Operasi"};
 
-// Variabel untuk melacak jumlah data yang sudah diisi
+
 int jumlahData = 0;
 
-// Fungsi untuk Menampilkan Menu
+//  Menu
 void tampilkanMenu() {
     cout << "\n===== SISTEM NILAI MAHASISWA =====\n";
     cout << "1. Masukkan Data Nilai Mahasiswa\n";
@@ -63,8 +63,6 @@ int main() {
                 }
 
                 cout << "\n--- Data Nilai Mahasiswa ---\n";
-                // --- BAGIAN YANG DIPERBAIKI ---
-                // Menggunakan std::left dan std::setw untuk merapikan tabel
                 cout << left << setw(5) << "No." 
                      << setw(30) << "Nama Mahasiswa" 
                      << setw(25) << "Struktur Data" 
